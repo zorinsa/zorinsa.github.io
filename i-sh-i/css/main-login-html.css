@@ -1,0 +1,185 @@
+/*
+Style Name: I-SH-I
+Author: varcredible
+Author URI: https://github.com/varcredible
+Description: This style has been created for web-site ♦ I-SH-I ♦
+Version: 1.0.0
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Body
+## Main
+# Media requests
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Body
+--------------------------------------------------------------*/
+
+body ul li a {
+  color: #FFFFFF;
+}
+
+body .main-page-content {
+  margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+## Main
+--------------------------------------------------------------*/
+body main {
+  width: 100%;
+  height: auto;
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-top: 108px;
+}
+
+body main .main-page-background {
+  background-color: #FFF;
+  background-image: url('../img/backgrounds/index-html.jpg');
+  background-repeat: no-repeat;
+  content: '';
+  position: absolute;
+  display: block;
+  left: -500px;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: 0;
+  margin-bottom: 40px;
+}
+
+body main .row .col h1, h2 {
+  color: #FFF;
+  font-weight: bolder;
+  text-shadow: 0 2px 4px rgba(0,0,0,.5);
+  cursor: default;
+}
+
+/* body main .row .main-block-form {
+  width: 800px;
+  height: 500px;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 90.5px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+} */
+
+body main .row .main-block-form .block-form {
+  width: 420px;
+  height: 500px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  color: #FF8C00;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 90.5px;
+  border: 2px solid #FFFFFF;
+}
+
+body main .row .main-block-form .block-form h3 {
+  color: #FF8C00;
+  cursor: default;
+  align-items: center;
+  font-weight: bolder;
+  text-shadow: none;
+  margin-top: -12px;
+}
+
+body main .row .main-block-form .row .col input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+  color: #FF8C00;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+body main .row .main-block-form .block-form form .last-row {
+  margin-top: -14px;
+}
+
+body main .row .main-block-form .block-form form a {
+  text-decoration: none;
+}
+
+body main .row .main-block-form .block-form form a:hover {
+  background-color: #FFFFFF;
+  text-decoration: underline;
+}
+
+body main .row .main-block-form .block-form form .form-checkbox {
+  display: inline-flex;
+}
+
+body main .row .main-block-form .block-form form .form-checkbox input {
+  width: 0;
+  height: 25px;
+  margin-right: -24px;
+  background: transparent;
+}
+
+body main .row .main-block-form .block-form form button {
+  background-color: #FF8C00;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
+}
+
+body main .row .main-block-form .block-form form button:hover {
+  background-color: #EC8200;
+  cursor: pointer;
+}
+
+body main .row .main-block-form .block-form form p a:hover {
+  text-decoration: underline;
+}
+
+body main .row .main-block-form .row .col button {
+  height: 50px;
+  width: 200px;
+}
+
+body main .row .main-block-form .block-form form .row {
+  margin-bottom: 20px;
+}
+
+/* body main .row .main-block-form a {
+  font-size: 80px;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: #FF8C00;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 15px;
+  padding-top: 0px;
+} */
+
+body main .row .main-block-form a:hover {
+  /* border: 3px solid rgba(255, 255, 255, 1); */
+  background-color: #EC8200;
+}
+
+body main .row .main-block-form .background-color-dark{
+  background-color: #343A40;
+}
+
+/*--------------------------------------------------------------
+# Media requests
+--------------------------------------------------------------*/
+@media screen and (min-device-width: 3300.0000000001px) {
+  body main .main-page-background {
+    background-size: 300%;
+  }
+}

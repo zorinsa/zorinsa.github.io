@@ -1,0 +1,185 @@
+/*
+Style Name: I-SH-I
+Author: varcredible
+Author URI: https://github.com/varcredible
+Description: This style has been created for web-site ♦ I-SH-I ♦
+Version: 1.0.0
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Header
+# Footer
+# Images and icons
+# Media requests
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+body header {
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+body header .topbar-login {
+  background-color: #343A40;
+  width: 100%;
+}
+
+body header .topbar-login .navbar {
+  height: 26px;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+body header .topbar-login ul li a {
+  margin: -19px -8px;
+  font-size: 14px;
+}
+
+body header .topbar-login .navbar ul {
+  width: 100%;
+}
+
+body header .topbar-login .navbar ul li a {
+  color: #FFFFFF;
+  opacity: .5;
+}
+
+body header .topbar-login .navbar ul li a:hover {
+  opacity: 1;
+}
+
+body header #header-topbar-menu {
+  background-color: #FF8C00;
+  backface-visibility: visible;
+  opacity: 1;
+}
+
+body header #header-topbar-menu .bg-darkorange {
+  background-color: #FF8C00;
+}
+
+body header #header-topbar-menu nav ul li a {
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+body header #header-topbar-menu nav ul li a:hover {
+  margin-top: -2px;
+}
+
+body header #header-topbar-menu nav .navbar-brand {
+  margin-left: 44px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+body header #header-topbar-menu nav {
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+body footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #343A40;
+  color: #FFF;
+  align-self : flex-end;
+}
+
+body footer .row {
+  height: 50px;
+  font-size: 14px;
+}
+
+body footer ul {
+  display: inline-flex;
+  float: right;
+  margin-bottom: 0;
+}
+
+body footer ul li {
+  margin-left: 20px;
+}
+
+body footer ul li a {
+  color: #FFF;
+  opacity: .5;
+}
+
+body footer ul li a:hover {
+  opacity: 1;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+# Images and Icons
+--------------------------------------------------------------*/
+.icon-header-topbar-login {
+  height: 15px;
+  margin-right: 2px;
+}
+
+.icon-header-topbar-menu {
+  height: 18px;
+  margin-right: 3px;
+  margin-bottom: 1px;
+}
+
+/*--------------------------------------------------------------
+# Media requests
+--------------------------------------------------------------*/
+@media screen and (max-device-width: 991px) {
+
+  body main {
+    left: -1775px;
+  }
+
+  body header #header-topbar-menu nav .navbar-brand {
+    margin-left: 0;
+  }
+
+  body header .topbar-login ul li a {
+    margin: -19px -16px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  body main {
+    left: -1775px;
+  }
+
+  body header #header-topbar-menu nav .navbar-brand {
+    margin-left: 0;
+  }
+
+  body header .topbar-login ul li a {
+    margin: -19px -16px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1920.0000000001px) {
+  body header #header-topbar-menu nav .navbar-brand {
+    margin-left: 0;
+  }
+}

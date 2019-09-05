@@ -1,0 +1,86 @@
+/*
+Style Name: I-SH-I
+Author: varcredible
+Author URI: https://github.com/varcredible
+Description: This style has been created for web-site ♦ I-SH-I ♦
+Version: 1.0.0
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Body
+## Main
+# Media requests
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Body
+--------------------------------------------------------------*/
+
+body ul li a {
+  color: #FFFFFF;
+}
+
+/*--------------------------------------------------------------
+## Main
+--------------------------------------------------------------*/
+body main {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 84px;
+}
+
+body main .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body main .main-page-background {
+  background-color: #FFF;
+  background-image: url('../img/backgrounds/index-html.jpg');
+  background-repeat: no-repeat;
+  content: '';
+  position: absolute;
+  display: block;
+  left: -500px;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: 0;
+  margin-bottom: 40px;
+}
+
+body main .container-fluid .row {
+  width: 100%;
+  height: auto;
+}
+
+body main .main-map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+body main .row .col h1, h2 {
+  color: #FFF;
+  font-weight: bolder;
+  text-shadow: 0 2px 4px rgba(0,0,0,.5);
+  cursor: default;
+}
+
+footer {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# Media requests
+--------------------------------------------------------------*/
+@media screen and (min-device-width: 3300.0000000001px) {
+  body main .main-page-background {
+    background-size: 300%;
+  }
+}

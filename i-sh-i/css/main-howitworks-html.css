@@ -1,0 +1,75 @@
+/*
+Style Name: I-SH-I
+Author: varcredible
+Author URI: https://github.com/varcredible
+Description: This style has been created for web-site ♦ I-SH-I ♦
+Version: 1.0.0
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Body
+## Main
+# Media requests
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Body
+--------------------------------------------------------------*/
+
+body ul li a {
+  color: #FFFFFF;
+}
+
+/*--------------------------------------------------------------
+## Main
+--------------------------------------------------------------*/
+body main {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 1920px;
+  margin-top: 84px;
+  margin-bottom: 40px;
+}
+
+body main .main-page-background {
+  background-color: #FFF;
+  background-image: url('../img/backgrounds/index-html.jpg');
+  background-repeat: no-repeat;
+  content: '';
+  position: absolute;
+  display: block;
+  left: -500px;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: 0;
+  margin-bottom: 40px;
+}
+
+body main .container-fluid {
+  padding: 20px;
+}
+
+body main .container-fluid .row {
+  width: 100%;
+  height: auto;
+}
+
+body main .row .col h1, h2 {
+  color: #343A40;
+  font-weight: bolder;
+  cursor: default;
+}
+
+/*--------------------------------------------------------------
+# Media requests
+--------------------------------------------------------------*/
+@media screen and (min-device-width: 3300.0000000001px) {
+  body main .main-page-background {
+    background-size: 300%;
+  }
+}
