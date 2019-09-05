@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="img/icons/tab-icon3.ico">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/header-footer-1.css" type="text/css">
+  <link rel="stylesheet" href="css/main-login-html.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Аренда инструментов рядом с домом у соседей</title>
+</head>
+<body>
+  <div class="main-page-wrapper">
+    <header>
+      <div class="topbar-login">
+        <nav class="navbar navbar-dark bg-dark">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html"><img src="img/icons/login.png" class="icon-header-topbar-login">Войти</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div id="header-topbar-menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-darkorange">
+          <a class="navbar-brand" href="index.html">I-SH-I</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav justify-content-end" style="width: 100%">
+              <li class="nav-item">
+                <a class="nav-link" href="howitworks.html"><img src="img/icons/howitworks.png" class="icon-header-topbar-menu">Как это работает?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="give.html"><img src="img/icons/give.png" class="icon-header-topbar-menu">Сдать в аренду</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="take.html"><img src="img/icons/take.png" class="icon-header-topbar-menu">Взять в аренду</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="map.html"><img src="img/icons/map.png" class="icon-header-topbar-menu">Карта</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="main-page-background"></div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center">I-SH-I — Интернет шэринг инструментов</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center">Аренда инструментов прямо у соседей</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="main-block-form">
+              <div class="block-form">
+                <div class="tabs">
+                  <input type="radio" name="inset" value="" id="tab_1" checked>
+                  <label for="tab_1">ВХОД</label>
+                  <input type="radio" name="inset" value="" id="tab_2">
+                  <label for="tab_2">РЕГИСТРАЦИЯ</label>
+                  <hr>
+                  <div id="txt_1">
+                    <form method="post" action="form.php">
+                      <div>
+                        <div class="row">
+                          <div class="col text-center">
+                            <h3>Вход в личный кабинет</h3>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <input type="text" name="login" placeholder="Логин или E-mail" autofocus>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <input type="password" name="password" placeholder="Пароль">
+                          </div>
+                        </div>
+                        <div class="row last-row">
+                          <div class="col text-left">
+                            <div class="form-checkbox">
+                              <input type="checkbox" id="ckb" name="remember_me" value="">
+                              <label for="ckb">Запомнить меня</label>
+                            </div>
+                          </div>
+                          <div class="col text-right">
+                            <a href="#">Забыли пароль?</a>
+                          </div>
+                        </div>
+                        <div class="row" style="margin-top: 30px">
+                          <div class="col text-center">
+                            <button type="submit">Отправить</button>
+                          </div>
+                        </div>
+                        <div class="row" style="font-size: 12px; height: 40px">
+                          <div class="col text-center">
+                            <p>При входе вы принимаете условия <a href="">Пользовательского соглашения</a> и <a href="">Политики конфиденциальности</a></p>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div id="txt_2">
+                    <form method="post" action="form.php">
+                      <div>
+                        <div class="row">
+                          <div class="col text-center">
+                            <h3>Регистрация</h3>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <input type="text" name="user_login" placeholder="Придумайте логин" autofocus>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <input type="text" name="user_phoneNumber" placeholder="Номер телефона">
+                          </div>
+                        </div>
+                        <div class="row" style="margin-bottom: -8px">
+                          <div class="col">
+                            <input type="password" name="user_password" placeholder="Придумайте пароль">
+                          </div>
+                        </div>
+                        <div class="row" style="margin-top: 30px">
+                          <div class="col text-center">
+                            <button type="submit">Зарегистрироваться</button>
+                          </div>
+                        </div>
+                        <div class="row" style="font-size: 12px; height: 40px;">
+                          <div class="col text-center">
+                            <p>При входе вы принимаете условия <a href="">Пользовательского соглашения</a> и <a href="">Политики конфиденциальности</a></p>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer>
+          <div class="container-fluid">
+            <div class="row align-items-center">
+              <div class="col">
+                I-SH-I 2019
+              </div>
+              <div class="col">
+                <ul>
+                  <li><a href="">Контакты</a></li>
+                  <li><a href="">Вакансии</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    </html>
